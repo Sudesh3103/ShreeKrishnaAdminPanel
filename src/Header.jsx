@@ -52,7 +52,7 @@ export default function Header({ toggleSidebar }) {
             <i className="fa-solid fa-bars"></i>
           </button>
           <div className="d-lg-none">
-            <img src="\images\ipmsgclip_s_1751012414_0.png" alt="" style={{ width: 150, height: 50 }} />
+            <img src="\images\ipmsgclip_s_1751012414_0.png" alt="" style={{ width: 120, height: 40, marginLeft: 40 }} />
           </div>
           <div className="d-none d-lg-block" onClick={toggleSidebar}>
             <i className="bi bi-list-nested fs-2 text-primary"></i>
@@ -69,7 +69,7 @@ export default function Header({ toggleSidebar }) {
               alt="Profile"
               className="header-profile-img ms-2"
               onClick={toggleProfileDropdown}
-              style={{ cursor: "pointer", borderRadius: "50%", width: 40, height: 40, objectFit: "cover",  }}
+              style={{ cursor: "pointer", borderRadius: "50%", width: 30, height: 30, objectFit: "cover",  }}
             />
             {isProfileDropdownOpen && (
               <div className="profile-dropdown position-absolute bg-white shadow-sm rounded p-2" style={{ minWidth: 140, right: 0, top: 50, zIndex: 100 }}>

@@ -29,7 +29,7 @@ export default function Sidebar({ isCollapsed }) {
   return (
     <section>
       <div className="sidebar-logo mb-3 mt-2">
-      {!isCollapsed &&<img src="\images\ipmsgclip_s_1751012414_0.png" alt="logo" style={{ width: '100%', height: 'auto' }} />}
+      {!isCollapsed &&<img src="\images\ipmsgclip_s_1751012414_0.png" alt="logo" style={{ width: 200, height: 60 }} />}
         {/* {!isCollapsed && <span className="ms-2">Admin</span>} */}
       </div>
       <hr className="sidebar-divider" />
